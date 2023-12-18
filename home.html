@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block title %} Home {% endblock %} {% block main
+%}
+<div id="email" class="container-fluid">
+  <h1>About the Email App</h1>
+  <p>
+    This project is designed to be used by customer service representatives who
+    are repetitively responding to a large volume of emails on a daily basis.
+    These emails always have a very predictable structure which is not so
+    difficult to recreate using programming. This means that these
+    representatives do not have to worry about manually copying and pasting
+    information unique to each degree into already existing templates. Rather it
+    collects the information from a simple database, alongside any additional
+    templates that may be relavent to the customer's enquiry, and inputs the
+    information into the template. The resulting HTML email can be copied into
+    your clipboard and put into CRM software such as Salesforce, to be sent
+    enquirers. Future iterations will allow the user to adjust the order of the
+    information in the emails in a drag and drop fashion. The enhance button
+    will be linked to OpenAi's chatGPT so that the emails can be made unique if
+    required and more synthesised.
+  </p>
+</div>
+{% endblock %}
